@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:yt/widgets/BottomNav.dart';
+import 'package:yt/widgets/Dissmisible.dart';
+import 'package:yt/widgets/DrawerWidget.dart';
+import 'package:yt/widgets/alert.dart';
+import 'package:yt/widgets/animatedText.dart';
 import 'package:yt/widgets/list_grid.dart';
 import 'package:yt/widgets/snackBarWidget.dart';
 import 'package:yt/widgets/Button.dart';
@@ -19,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark , primaryColor: const Color.fromARGB(255, 140, 25, 160)
       ),
-      home: SncackBarWidget(),
+      home: BottomNav(),
     );
   }
 }
